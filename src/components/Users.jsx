@@ -37,7 +37,7 @@ class Users extends Component {
   };
 
   associateCountry = () => {
-    if (this.state.selectedUser && this.state.selectedCountry) {
+    if (this.state.selectedUser && this.state.selectedCountry){
       console.log(`Associating ${this.state.selectedCountry} with ${this.state.selectedUser}`);
     }
   };
